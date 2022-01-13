@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Database credentials
-user="KXqTXUBK7et7Xr3k"
-password="pDw48JCbbiXmSKXF"
+user="user"
+password="password"
 host="127.0.0.1"
-db_name="es_extended"
+db_name="db_name"
 
 # Other options
-backup_path="/home/FXServer/SQL_Backups"
+backup_path="/home/FXServer/SQL_Backups" # Dir to sql backups
 date=$(date +"%d-%b-%Y")
 
 # Set default file permissions
